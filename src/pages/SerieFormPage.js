@@ -13,9 +13,14 @@ import {setField,saveSerie,
 
 
 const SerieFormPage = ({serieForm, setField,saveSerie,navigation}) =>(
+   
+            
+    
     <KeyboardAvoidingView 
     keyboardVerticalOffset={100}
     behavior= "padding" enable>
+       
+        
     <ScrollView keyboardShouldPersistTaps='handled'>
         <FormRow first>
         <TextInput
@@ -91,10 +96,15 @@ const SerieFormPage = ({serieForm, setField,saveSerie,navigation}) =>(
                         
                             navigation.goBack();
                         })
+                        
+                        
                     
                     
                     
-                    }}/>
+                    }
+                    
+                    }/>
+              
 
                     
 
@@ -132,7 +142,8 @@ function mapStateToProps(state) {
 }
 const mapDispatchToProps = {
 	setField,
-    saveSerie
+    saveSerie,
+    setWholeSerie,
     
 }
 
