@@ -5,4 +5,4 @@ Aplicativo criado aplicando os conceitos de Redux.
 
 dados estão sendo salvos no Firebase.
 
-https://youtu.be/kPMfw5izusY
+Link do vídeo: https://youtu.be/kPMfw5izusY
